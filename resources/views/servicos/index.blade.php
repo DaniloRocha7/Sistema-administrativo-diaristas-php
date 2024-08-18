@@ -7,6 +7,14 @@
 @stop
 
 @section('content')
+
+    @if (session('mensagem'))
+        <div class="alert alert-success">
+            {{session('mensagem')}}
+        </div>
+    @endif
+
+
 <p><table class="table">
     <thead>
       <tr>
