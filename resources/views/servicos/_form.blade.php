@@ -40,6 +40,7 @@
                             type ="input"
                             class="form-control"
                             name="posicao"
+                            data-mask="00"
                             id="posicao"
                             required
                             placeholder="Posição de serviço na plataforma">
@@ -63,6 +64,8 @@
                             class="form-control"
                             name="valor_minimo"
                             id="valor_minimo"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor mínimo do serviço">
                     </div>
@@ -77,6 +80,7 @@
                             class="form-control"
                             name="quantidade_horas"
                             id="quantidade_horas"
+                            data-mask="0"
                             required
                             placeholder="Quantidade mínima de horas">
                     </div>
@@ -91,6 +95,7 @@
                             class="form-control"
                             name="porcentagem"
                             id="porcentagem"
+                            data-mask="00"
                             required
                             placeholder="Porcentagem de comissão no serviço">
                     </div>
@@ -113,6 +118,8 @@
                             class="form-control"
                             name="valor_quarto"
                             id="valor_quarto"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor por quarto">
                     </div>
@@ -127,6 +134,7 @@
                             class="form-control"
                             name="horas_quarto"
                             id="horas_quarto"
+                            data-mask="0"
                             required
                             placeholder="Quantidade de horas por quarto">
                     </div>
@@ -141,6 +149,8 @@
                             class="form-control"
                             name="valor_sala"
                             id="valor_sala"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor por sala">
                     </div>
@@ -155,6 +165,7 @@
                             class="form-control"
                             name="horas_sala"
                             id="horas_sala"
+                            data-mask="0"
                             required
                             placeholder="Quantidade de horas por sala">
                     </div>
@@ -169,6 +180,8 @@
                             class="form-control"
                             name="valor_banheiro"
                             id="valor_banheiro"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor por banheiro">
                     </div>
@@ -183,6 +196,7 @@
                             class="form-control"
                             name="horas_banheiro"
                             id="horas_banheiro"
+                            data-mask="0"
                             required
                             placeholder="Quantidade de horas por banheiro">
                     </div>
@@ -197,6 +211,8 @@
                             class="form-control"
                             name="valor_cozinha"
                             id="valor_cozinha"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor por cozinha">
                     </div>
@@ -211,6 +227,7 @@
                             class="form-control"
                             name="horas_cozinha"
                             id="horas_cozinha"
+                            data-mask="0"
                             required
                             placeholder="Quantidade de horas por cozinha">
                     </div>
@@ -225,6 +242,8 @@
                             class="form-control"
                             name="valor_quintal"
                             id="valor_quintal"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor por quintal">
                     </div>
@@ -239,6 +258,7 @@
                             class="form-control"
                             name="horas_quintal"
                             id="horas_quintal"
+                            data-mask="0"
                             required
                             placeholder="Quantidade de horas por quintal">
                     </div>
@@ -253,6 +273,8 @@
                             class="form-control"
                             name="valor_outros"
                             id="valor_outros"
+                            data-mask="#.##0,00"
+                            data-mask-reverse="true"
                             required
                             placeholder="Valor por outros tipos de cômodos">
                     </div>
@@ -267,6 +289,7 @@
                             class="form-control"
                             name="horas_outros"
                             id="horas_outros"
+                            data-mask="0"
                             required
                             placeholder="Quantidade de horas por outros tipos de cômodos">
                     </div>
